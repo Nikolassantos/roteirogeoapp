@@ -4,23 +4,18 @@
     "slug": "Roteiro",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icone.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/screen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#D5D8DE"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "package": "com.mateussantos.roteirogeojp",
+      "versionCode": 1
     }
   }
 }
